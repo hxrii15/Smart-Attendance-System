@@ -1,4 +1,4 @@
-**Project Name: Automatic Face Recognition Attendance System
+**Project Name: Automatic Face Recognition Attendance System**
 
 **Overview:**
 The Automatic Face Recognition Attendance System is a Python-based application that automates the process of tracking attendance using facial recognition. By capturing video feed from a camera, the system detects faces of students from pre-loaded images, matches them with known faces, and records the attendance. This system is ideal for educational environments where manual attendance tracking can be time-consuming and prone to errors. It utilizes OpenCV for real-time face detection and recognition and stores the attendance data in a CSV file for easy record-keeping.
