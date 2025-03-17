@@ -19,6 +19,7 @@ CSV: For storing and managing attendance data.
 Datetime: For recording attendance time stamps.
 
 **How It Works:**
+
 Image Preprocessing: The system first scans the photos directory to detect student names based on the filenames. Each image is processed by converting it into grayscale and using OpenCV’s Haar Cascade Classifier for face detection.
 
 Training the Model: The system trains a face recognizer (LBPH Face Recognizer) with the student photos. Each recognized face is assigned a unique label for future identification.
@@ -29,7 +30,7 @@ Attendance Logging: When a recognized student’s face is detected, their name a
 
 CSV Sorting: After the session ends, the attendance file is sorted alphabetically by student name, ensuring a well-organized attendance list.
 
-User Interaction:
+**User Interaction:**
 
 The system shows a live feed with the student’s name and attendance status (e.g., “Marked” or “Not Marked”).
 Press 'q' to exit the video capture
@@ -40,9 +41,13 @@ Lighting Conditions: Lighting and environmental factors can affect face detectio
 Camera Quality: The quality of the camera used for face detection may influence recognition accuracy.
 
 **Future Improvements:**
+
 Live Web Interface: Create a web-based interface to monitor the attendance in real-time.
+
 Enhanced Recognition Models: Incorporate more advanced face recognition models like deep learning-based models for improved accuracy and robustness.
+
 Error Handling: Improve the system's ability to handle low-quality or unclear images.
+
 Multiple Camera Support: Extend support for using multiple cameras for larger classrooms or events.
 
 
