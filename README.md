@@ -15,7 +15,7 @@ Automatic Attendance Marking: Attendance is automatically marked based on the fa
 
 **Technologies Used:**
 
-Python: The primary programming language for the project.
+**Python:** The primary programming language for the project.
 OpenCV: Used for face detection, face recognition, and video capture functionality.
 Numpy: For handling arrays and numerical operations in the training and recognition process.
 CSV: For storing and managing attendance data.
